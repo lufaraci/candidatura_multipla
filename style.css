@@ -20,14 +20,14 @@ html, body { /* prende in considerazione tutto il foglio html e la body */
 }
 
 h1 {
-  font-size: 70px;
+  font-size: 3rem;
   line-height: 1em;
   margin: 0px;
   color: #297373;
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 3rem;
   margin: 0px;
 }
 
