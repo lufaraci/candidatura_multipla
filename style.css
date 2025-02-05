@@ -139,7 +139,7 @@ section.chisiamo figure {
 }
 
 section.chisiamo figure img{
-  width: 60%;
+  width: 55%;
 }
 
 section.chisiamo .text{
@@ -283,7 +283,7 @@ html, body {
 }
 
 h1 {
-   font-size: 1.8rem;
+   font-size: 1.7rem;
 }
 
 h2 {
@@ -303,7 +303,9 @@ section.chisiamo figure {
   flex-basis: 25vh;
 }
 
-
+section.chisiamo figure img{
+  width: 40%;
+}
 
 section.full-screen figure.gino {
   align-items: center;
@@ -321,6 +323,7 @@ section.full-screen article{
   flex-direction: row;
   flex: auto;
   align-items: center;
+  width: 90vw;
 }
 
 section.full-screen h2{
@@ -339,4 +342,14 @@ section.full-screen div{
   padding: 0%;
   width: 1.7rem;
 }
+
+/*
+section.chisiamo figure .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  background: #1f1a1c
+  padding: var(--border-radius);
+}*/
 }
