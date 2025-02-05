@@ -108,7 +108,7 @@ section.HI article .title {
   align-items: flex-end;
   background: var(--green);
   border-radius: var(--border-radius);
-  padding: 3.12vw;
+  padding: var(--gutter);
 }
 
 section.HI article .description {
@@ -239,7 +239,6 @@ section.contatti article{
   flex-direction:column;
   align-items: center;
   width: 60vw;
-  height: 75vh;
   background: rgba(255, 255, 255, 0.2);
   border-radius: 2%;
   margin: 1%;
@@ -284,12 +283,17 @@ html, body {
 }
 
 h1 {
-   font-size: 40px;
+   font-size: 1.8rem;
+}
+
+h2 {
+   font-size: 1.6rem;
 }
 
 nav ul li {
    margin-left: 25px;
 }
+
 
 section.chisiamo article {
   flex-direction: column;
@@ -299,9 +303,7 @@ section.chisiamo figure {
   flex-basis: 25vh;
 }
 
-section.chisiamo figure img {
-  width: 20%;
-}
+
 
 section.full-screen figure.gino {
   align-items: center;
@@ -317,7 +319,6 @@ section.full-screen {
 
 section.full-screen article{
   flex-direction: row;
-  width: 80vw;
   flex: auto;
   align-items: center;
 }
@@ -338,14 +339,4 @@ section.full-screen div{
   padding: 0%;
   width: 1.7rem;
 }
-
-/*
-section.chisiamo figure .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex: 1;
-  background: #1f1a1c
-  padding: var(--border-radius);
-}*/
 }
